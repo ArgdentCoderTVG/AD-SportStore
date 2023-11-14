@@ -11,7 +11,7 @@ using SportStore.Data;
 
 namespace SportStore.Data.Migrations
 {
-    [DbContext(typeof(ApplicationDbContext))]
+    [DbContext(typeof(SportStoreDbContext))]
     [Migration("20231110125236_InitialCreate")]
     partial class InitialCreate
     {
