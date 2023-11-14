@@ -7,7 +7,7 @@ namespace SportStore.Data.Entities
         // Constants, member variables
         const byte MAXLENGTH_FOR_STRINGS = 100;
 
-        public int Id { get; set; }
+        public int CategoryId { get; set; }
         
         [MaxLength(MAXLENGTH_FOR_STRINGS)]
         public string Name { get; set; }
