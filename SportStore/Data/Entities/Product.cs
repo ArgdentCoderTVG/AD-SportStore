@@ -13,7 +13,7 @@ namespace SportStore.Data.Entities
         [MaxLength(MAXLENGTH_FOR_STRINGS)]
         public string? Description { get; set; } = default;
         public decimal Price { get; set; } = default;
-        public string? ImageURL { get; set; } = default;
+        public string? ImageUrl { get; set; } = default;
 
         public int? CategoryFK { get; set; } = default;
         public Category? Category { get; set; } = default;
